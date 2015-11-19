@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Ecshop商城首页</title>
+		<link rel="stylesheet" href="../css/web.css"></link>
+		<link rel="stylesheet" href="../css/common.css"></link>
+	</head>
+	<body>
+		<!--头部广告开始-->
+		<div id="TopMain">
+			<div id="Top">
+				<a href="#">
+					<img src="../images/adv.jpg" width="967px" height="100px" alt="广告"/>
+				</a>
+				<img src="../images/close.png" class="close"/>
+			</div>
+			<!--头部广告结束-->
+			<!--header标题开始-->
+			<div id="Header">
+				<div class="Logo"><a href="#"><img src="../images/logo.png"/></a></div>
+				<div class="Search">
+					<form>
+						<input type="text" class="sear" />
+						<input type="submit" class="btn" value="" />
+					</form>
+				</div>
+				<!--User登录-->
+				<div class="User">
+					<a href="#"><i class="iconfont">&#xe60b;</i>登录</a>
+					<a href="#"><i class="iconfont">&#xe60e;</i>注册</a>
+					<a href="#"><i class="iconfont">&#xe646;</i>加入购物车</a>
+				</div>
+				<!--User登录后
+				<div class="User">
+					<span>您好，wlm123, 欢迎您回来！
+						<a href="#">用户中心</a>|<a href="#">退出</a>
+					</span>
+					<a href="#"><i class="iconfont">&#xe646;</i>加入购物车</a>
+				</div>-->
+			</div>
+			<!--header标题结束-->
+		</div>
+			<!--导航开始-->
+		<div id="Nav">
+			<div class="content">
+				<ul>
+					<li class="first"><i class="iconfont">&#xf0035;</i>全部商品分类</li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">节日礼物</a></li>
+					<li><a href="#">生日礼物</a></li>
+					<li><a href="#">蛋糕</a></li>
+					<li><a href="#">商物礼物</a></li>
+					<li><a href="#">个性定制</a></li>
+					<li><a href="#">鲜花</a></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+		</div>
+		<!--导航结束-->
+		<!--内容开始-->
+		<div style="height=5000px;width=100%"></div>
+	</body>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+</html>

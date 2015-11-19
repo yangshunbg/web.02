@@ -1,0 +1,450 @@
+.fixed{
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+.content{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+}
+/*头部广告样式*/
+#Top{
+	width:100%;
+	height:100px;
+	background-image:url("../images/advbg.png");
+	position:relative;
+}
+#Top a{
+	display:block;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+#Top img.close{
+	position:absolute;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+/*Header标题样式*/
+#Header{
+	width:1000px;
+	height:70px;
+	margin:0px auto;
+	padding-top:30px;
+}
+#Header div.Logo{
+	width:220px;
+	height:100%;
+	float:left;
+}
+#Header div.Search{
+	width:400px;
+	height:100%;
+	float:left;
+	position:relative;
+}
+#Header div.Search form input.sear{
+	width:310px;
+	height:38px;
+	outline:none;
+	border:1px solid #DDD;
+}
+#Header div.Search form input.btn{
+	width:42px;
+	height:40px;
+	border:0px none;
+	background:url("../images/ser_but.png");
+	position:absolute;
+	left:312px;
+
+}
+#Header div.User{
+	width:380px;
+	height:100%;
+	float:right;
+}
+#Header div.User a{
+	margin:15px;
+	color:#666;
+	font-size:12px;
+}
+#Header div.User a:hover{
+	color:#ED145B;
+}
+#Header div.User a i.iconfont{
+    font-size:16px;
+	padding-right:8px;
+	color:#ED145B;
+}
+#Header div.User span{
+	font-size:12px;
+	color:#666;
+}
+#Header div.User span a{
+	margin:5px;
+	color:#ED145B;
+}
+/*Nav 导航样式*/
+#Nav{
+	width:100%;
+	height:50px;
+	background-color:#000;
+	line-height:50px;
+	z-index:122;
+}
+#Nav div.content{
+	position:relative;
+}
+#Nav div.content ul li{
+	color:#fff;
+	float:left;
+	position:relative;
+	z-index:3
+}
+#Nav div.content ul li a{
+	color:#fff;
+	display:block;
+	padding:0 30px;
+}
+#Nav div.content ul li.first{
+	text-align:center;
+	height:50px;
+	width:190px;
+	background-color:#F42760;
+}
+#Nav div.content ul li.first i.iconfont{
+    font-size:20px;
+	color:#fff;
+}
+#Nav div.content ul li.last{
+	width:88px;
+	height:50px;
+	background-color:#008000;
+	position:absolute;
+	top:0px;
+	left:190px;
+	display:none;
+	z-index:2;
+}
+#Nav div.content div.List{
+	width:190px;
+	height:420px;
+	background-color:#000;
+	position:absolute;
+	top:50px;
+	left:0px;
+	line-height:20px;
+	z-index:10;
+	display:none;
+}
+#Nav div.content div.List div.list{
+	width: 190px;
+	height: 69px;
+	border-bottom: 1px solid #1C1C1C;
+	position:relative;
+}
+#Nav div.content div.List div.list dt{
+	color: #F42760;
+    padding: 10px;
+}
+#Nav div.content div.List div.list dd{
+	float: left;
+	padding:0px 10px;
+	font-size:12px;
+}
+#Nav div.content div.List div.list dd a{
+	color: #FFF;
+}
+#Nav div.content div.List div.list dd a:hover{
+	color: #F42760;
+}
+#Nav div.content div.List div.list div.moreList{
+	width:200px;
+	height:300px;
+	border:1px solid #666;
+	position:absolute;
+	top:-1px;
+	left:190px;
+	display:none;
+	background-color:#fff;
+}
+#Nav div.content div.List div.list div.border_right{
+	width:1px;
+	height:69px;
+	background-color:#fff;
+	position:absolute;
+	display:none;
+	left:190px;
+	top:0px;
+	z-index:100;
+}
+#Nav div.content div.List div.list:hover div.moreList{
+	display:block;
+}
+#Nav div.content div.List div.list:hover{
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
+}
+
+#Nav div.content div.List div.list1:hover{
+	border-top:none;
+}
+#Nav div.content div.List div.list:hover div.border_right{
+	display:block;
+}
+#Part1{
+	width:100%;
+	height:420px;
+	background:url("../images/timeGo.png");
+}
+#Part1 div.content div.left,#Part1 div.content div.news{
+	width:190px;
+	height:100%;
+	float:left;
+}
+#Part1 div.content div.center{
+	width:820px;
+	height:420px;
+	float:left;
+	position:relative;
+}
+#Part1 div.content div.center div.scroll{
+	width:820px;
+	height:420px;
+	overflow:hidden;
+	position:relative;
+}
+#Part1 div.content div.center div.scroll img{
+	position:absolute;
+	top:0px;
+	left:820px;
+}
+#Part1 div.content div.center div.scroll img.hover{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#Part1 div.content div.center div.scroll div.btn{
+	width:140px;
+	height:20px;
+	border-radius:40px;
+	position:absolute;
+	left:340px;
+	bottom:10px;
+	background:rgba(0,0,0,0.5);
+	text-align:center;
+}
+#Part1 div.content div.center div.scroll div.btn i{
+	width:10px;
+	height:10px;
+	display:inline-block;
+	border-radius:5px;
+	background-color:#666;
+}
+#Part1 div.content div.center div.scroll div.btn i.first{
+	background-color:#F42760;
+}
+#Part1 div.content div.center a{
+	display:inline-block;
+	width:71px;
+	height:71px;
+	z-index:11;
+	display:none;
+}
+#Part1 div.content div.center:hover a{
+	display:block;
+}
+#Part1 div.content div.center a.prev{
+	background:url("../images/but.png") no-repeat -71px 0;
+	position:absolute;
+	left:-35px;
+	top:175px;
+}
+#Part1 div.content div.center a.next{
+	background:url("../images/but.png")no-repeat -71px -71px;
+	position:absolute;
+	left:785px;
+	top:175px;
+}
+#Part1 div.content div.news{
+	position:relative;
+	background-color:rgba(73,12,29,.5);
+}
+
+#Part1 div.content div.news div.newsA{
+	width:170px;
+	height:420px;
+	background-color:rgba(68,8,17,.7);
+	float:left;
+}
+#Part1 div.content div.news div.newsCon{
+	width:170px;
+	height:420px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	float:left;
+}
+#Part1 div.content div.news div.newsCon div.tznews{
+	width:170px;
+	height:210px;
+}
+#Part1 div.content div.news div.newsCon div.tznews h3{
+	color:#fff;
+	font-weight:100;
+	text-indent:10px;
+	height:45px;
+	background-color:rgba(54,12,15,.5);
+	line-height:45px;
+}
+
+#Part1 div.content div.news div.newsCon div.tznews div.newsTxt{
+	width:160px;
+	height:130px;
+	margin-top:15px; 
+	margin-left:10px;
+	position:relative;
+	overflow:hidden;
+}
+#Part1 div.content div.news div.newsCon div.tznews div.newsTxt div.newsT{
+	width:160px;
+	position:absolute;
+}
+#Part1 div.content div.news div.newsCon div.tznews div.newsTxt div.newsT ul li{
+	font-size:12px;
+	padding-bottom:11px;
+}
+#Part1 div.content div.news div.newsCon div.holiday div.newsTxt div.newsT ul li{
+	padding:6px 0 6px;
+	margin-bottom:4px;
+	background-color:rgba(77,23,26,.5);
+}
+#Part1 div.content div.news div.newsCon div.tznews div.newsTxt div.newsT ul li a{
+	color:#fff;
+}
+#Part1 div.content div.news div.newsCon div.tznews div.newsTxt div.newsT ul li a span{
+	color:#ff3366;
+}
+#Part1 div.content div.news div.scroll{
+	width:20px;
+	height:420px;
+	float:right;
+}
+#Part1 div.content div.news div.scroll div.scrolltop{
+	width:20px;
+	height:210px;
+}
+#Part1 div.content div.news div.scroll div.scrolltop h3{
+	height:45px;
+	background-color:rgba(54,12,15,.5);
+}
+#Part1 div.content div.news div.scroll div.scrolltop div.scrolltop_t{
+	width:10px;
+	height:165px;
+	background-color:rgba(91,202,243,.5);
+	margin:0 5px;
+	border-radius:5px;
+	position:relative;
+}
+#Part1 div.content div.news div.scroll div.scrolltop div.scrolltop_t div.scrollBtn{
+	width:10px;
+	height:20px;
+	border-radius:5px;
+	background-color:rgba(0,250,0,.5);
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+}
+#newTaday{
+	width:100%;
+	height:400px;
+}
+#newTaday div.content{
+	height:400px;
+}
+#newTaday div.content div.top{
+	width:100%;
+	height:90px;
+	border-bottom:1px solid #ccc;
+}
+#newTaday div.content div.top div.title{
+	width:290px;
+	height:100%;
+	float:left;
+}
+#newTaday div.content div.top div.title i{
+	width:38px;
+	height:38px;
+	background:url("../images/data.jpg") no-repeat;
+	display:inline-block;
+	float:left;
+	margin-top:45px;
+}
+#newTaday div.content div.top div.title h3{
+	float:left;
+	height:30px;
+	font-size:24px;
+	line-height:40px;
+	margin-top:40px;
+}
+#newTaday div.content div.top div.title p {
+	width:143px;
+	height:30px;
+	border-radius:5px;
+	color:#fff;
+	background-color:#666;
+	margin-left:10px;
+	margin-top:45px;
+	float:right;
+	line-height:30px;
+	text-align:center;
+}
+#newTaday div.content div.top span{
+	float:right; 
+	width:70px; 
+	color:#666;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	margin-top:45px;
+	cursor:pointer;
+	background:url("../images/z.jpg") no-repeat right center;
+}
+#newTaday div.content div.goods{
+	width:100%;
+	height:310px;
+	position:relative;
+}
+#newTaday div.content div.goods div.align{
+	width:1300px;
+	height:240px;
+	position:absolute;
+	top:20px;
+	left:0px;
+	overflow:hidden;
+}
+#newTaday div.content div.goods div.align ul li{
+	width:238px;
+	height:238px;
+	float:left;
+	text-align:center;
+}
+.border{
+	border:1px solid #f00;
+}
+#newTaday div.content div.goods div.align ul li p font{
+	color:red;
+}
+#newTaday div.content div.goods div.align ul li p.person span{
+	color:red;
+}
+#newTaday div.content div.goods div.align ul li p.person i{
+	width:15px;
+	height:16px;
+	display:inline-block;
+	padding-right:5px;
+	background:url("../images/person.jpg") no-repeat;
+}

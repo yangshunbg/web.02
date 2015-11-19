@@ -1,0 +1,27 @@
+#Gain div.gain{
+	width:1053px;
+	height:2000px;
+	
+	background:url("../images/body.jpg");
+}
+#Gain div.gain div{
+	width:950px;
+	margin-left:50px;
+	color:#fff;
+}
+#Gain div.gain h3{
+	padding-left:30px;
+	color:#fff;
+}
+
+.opacity{
+	background-color: #FFFDEF;
+	opacity:0.5;
+}
+pre{
+	padding: 20px;
+	margin: 10px 0px;
+	border: 1px solid #E7E1CD;
+	color:#000;
+	overflow:scroll;
+}

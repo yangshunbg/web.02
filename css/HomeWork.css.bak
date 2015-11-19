@@ -1,0 +1,91 @@
+html,body{
+	background:url("../images/body.jpg");
+}
+
+.fixed{
+	position:fixed;
+	top:0px;
+	left:32px;
+}
+/*头部样式*/
+#Title{
+	width:100%;
+	height:100px;
+	border-bottom:4px dotted #00f;	
+}
+#Title div.tit{
+	width:1200px;
+	text-align:center;
+	line-height:100px;
+	font-size:40px;
+	font-weight:500;
+	color:#fff;
+	margin:0 auto;
+}
+#Content{
+	width:100%;
+}
+#Content div.C_con{
+	height:73.21%;
+	margin-left:30px;
+}
+#Content div.C_con div.C_con_c{
+	width:25.6%;
+	height:1000px;
+	border-right:4px dotted #00f;
+	float:left;
+}
+/*目录样式*/
+#Content div.C_con div.C_con_c div.catalog{
+	width:100%;
+}
+#Content div.C_con div.C_con_c div.catalog div.mu{
+	width:100%;
+	height:50px;
+	color:#fff;
+	line-height:50px;
+	text-align:center;
+	font-size:25px;
+}
+/*详细目录样式*/
+#Content div.C_con div.C_con_c div.catalog div.homework{
+	margin-bottom:10px;
+}
+#Content div.C_con div.C_con_c div.catalog div.cat{
+	width:100%;
+	height:15px;
+	color:#fff;
+	line-height:15px;
+	text-align:center;
+	margin-left:30px;
+}
+#Content div.C_con div.C_con_c div.catalog div.cat h3{
+	float:left;
+}
+#Content div.C_con div.C_con_c div.catalog div.cat a{
+	display:inline-block;
+	width:18px;
+	height:15px;
+	margin-left:5px;
+	background:url("../images/pe_icon.png")no-repeat -282px -59px;
+	background-color:#f06;
+	float:left;
+}
+#Content div.C_con div.C_con_c div.catalog div.web{
+	text-align:center;
+	color:#fff;
+	display:none;
+}
+#Content div.C_con div.C_con_c div.catalog div.web ul li a{
+	color:#f06;
+}
+/*展示窗口样式*/
+#Show{
+	width:78.5%;
+	height:1000px;
+	float:right;
+	border:0;
+}
+.show{
+	background-color:#fff;
+}

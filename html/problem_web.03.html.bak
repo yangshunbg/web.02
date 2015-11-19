@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>存在问题</title>
+		<link rel="stylesheet" href="../css/common.css"></link>
+		<link rel="stylesheet" href="../css/problem_web.css"></link>
+	</head>
+	<body>
+		<div id="problem"> 
+			<div>
+				<h2>本节课没有太大问题</br>
+				老师辛苦啦！！</br>
+				谢谢老师！！
+				</h2>
+				<img src="../images/love.png" width="100" height="100"/>
+			</div>
+			<p>建议:建一个width=1200px居中的div盒子，把左侧二级菜单盒子和上面“全部商品分类”ul li标签同级放在此新建div盒子里，这样就可以避免很多嵌套带来的麻烦！！！！</p>
+			<p>如下图所示</p>
+			</br>
+			</br>
+			<img src="../images/baocuo.png"/>
+		</div>
+	</body>
+</html>

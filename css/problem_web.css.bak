@@ -1,0 +1,16 @@
+#problem{
+	width:1053px;
+	height:1000px;
+	background:url("../images/body.jpg");
+}
+#problem div{
+	color:red;
+	text-align:center;
+}
+#problem div h2{
+	padding-top:50px;
+}
+#problem p{
+	color:#fff;
+	margin-left:50px;
+}

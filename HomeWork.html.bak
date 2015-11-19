@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Ecshop商城开发课后作业</title>
+		<link rel="stylesheet" href="css/HomeWork.css"></link>
+		<link rel="stylesheet" href="css/common.css"></link>
+	</head>
+	<body>
+		<div id="Title">
+
+				<div class="tit">清心老师：Ecshop商城开发课后作业</div>
+
+		</div>
+		<div id="Content">
+			<div class="C_con">
+				<div class="C_con_c">
+					<div class="catalog">
+						<div class="mu">目录</div>
+						<div class="homework">
+							<div class="cat cat1">
+								<h3>Ecshop商城开发-web.01</h3>
+								<a href="#"></a>
+							</div>
+							<div class=" web web1">
+								<ul>
+									<li class="first"><a href="html/web.01.html" target="show">作业展示</a></li>
+									<li><a href="html/gain_web.01.html" target="show">收获</a></li>
+									<li><a href="html/problem_web.01.html" target="show">存在问题</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="homework">
+							<div class="cat cat2">
+								<h3>Ecshop商城开发-web.02</h3>
+								<a href="#"></a>
+							</div>
+							<div class="web web2">
+								<ul>
+									<li class="first"><a href="html/web.02.html" target="show">作业展示</a></li>
+									<li><a href="html/gain_web.02.html" target="show">收获</a></li>
+									<li><a href="html/problem_web.02.html" target="show">存在问题</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="homework">
+							<div class="cat cat3">
+								<h3>Ecshop商城开发-web.03</h3>
+								<a href="#"></a>
+							</div>
+							<div class="web web3">
+								<ul>
+									<li class="first"><a href="html/web.03.html" target="show">作业展示</a></li>
+									<li><a href="html/gain_web.01.html" target="show">收获</a></li>
+									<li><a href="html/problem_web.01.html" target="show">存在问题</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="homework">
+							<div class="cat cat4">
+								<h3>Ecshop商城开发-web.04</h3>
+								<a href="#"></a>
+							</div>
+							<div class="web web4">
+								<ul>
+									<li class="first"><a href="html/web.04.html" target="show">作业展示</a></li>
+									<li><a href="html/gain_web.04.html" target="show">收获</a></li>
+									<li><a href="html/problem_web.04.html" target="show">存在问题</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<iframe id="Show" name="show" ></iframe>
+				<script type="text/javascript" src="js/jquery.js"></script>
+				<script type="text/javascript" src="js/HomeWork.js"></script>
+			</div>
+		</div>
+	</body>
+</html>

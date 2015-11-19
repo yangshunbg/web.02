@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>收获</title>
+		<link rel="stylesheet" href="../css/common.css"></link>
+		<link rel="stylesheet" href="../css/gain_web.css"></link>
+	</head>
+	<body>
+		<div id="Gain">
+			<div class="gain">
+				<h3>jQuery实现图片左右切换无缝轮播效果</h3>
+				<div class="first">
+					<div class="opacity">
+						<pre>
+var _index = 0,preindex = 0;
+var clearTime = null;
+$("#Part1 div.content div.center div.scroll div.btn i").mouseover(function(){
+	clearInterval(clearTime);//清楚自动轮播
+	_index = $(this).index();
+	scrollPlay();
+	preindex = _index;
+}).mouseout(function(){//鼠标移开时开始自动轮播
+	autoPlay();
+});
+//点击向右
+$("#Part1 div.content div.center a.next").click(function(){
+	clearInterval(clearTime);
+	_index++;
+	if(_index>5){
+		_index = 0;
+		preindex = 5;
+	}
+	scrollPlay();
+	preindex = _index;
+}).mouseout(function(){
+	autoPlay();
+});
+//点击向左
+$("#Part1 div.content div.center a.prev").click(function(){
+	clearInterval(clearTime);
+	_index--;
+	if(_index<0){
+		_index = 5;
+		preindex = 0;
+	}
+	scrollPlay();
+	preindex = _index;
+}).mouseout(function(){
+	autoPlay();
+});
+//自动轮播
+autoPlay();
+function autoPlay(){
+	clearTime=setInterval(function(){
+		_index++;
+	if(_index>5){
+		_index = 0;
+		preindex = 5;
+	}
+	scrollPlay();
+	preindex = _index;
+	},3000);
+}
+//鼠标事件轮播
+function scrollPlay(){
+	$("#Part1 div.content div.center div.scroll div.btn i").eq(_index).addClass("first").siblings().removeClass("first");//siblings()除掉当前元素的其他同级元素
+	if(_index==0&&preindex==5){
+		next();
+	}else if(_index==5&&preindex==0){
+		prev();
+	}else if(_index>preindex){
+		next();
+	}else if(_index<preindex){
+		prev();
+	}
+}
+function next(){
+		$("#Part1 div.content div.center div.scroll img").eq(preindex).stop().animate({"left":"-820px"},1000);//eq(index)获取对应索引的同级元素
+		$("#Part1 div.content div.center div.scroll img").eq(_index).css("left","820px").stop().animate({"left":"0px"},1000);
+}
+function prev(){
+		$("#Part1 div.content div.center div.scroll img").eq(preindex).stop().animate({"left":"820px"},1000);//eq(index)获取对应索引的同级元素
+		$("#Part1 div.content div.center div.scroll img").eq(_index).css("left","-820px").stop().animate({"left":"0px"},1000);
+}
+						</pre>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+	</body>
+</html>

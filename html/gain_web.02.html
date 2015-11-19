@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>收获</title>
+		<link rel="stylesheet" href="../css/common.css"></link>
+		<link rel="stylesheet" href="../css/gain_web.css"></link>
+	</head>
+	<body>
+		<div id="Gain">
+			<div class="gain">
+				<h3>1.jQuery</h3>
+				<div class="first">(1) jQuery切换事件hover()
+					<div class="opacity">
+						<pre>
+hover(function(){//鼠标悬停在被选元素上触发的函数},function(){//鼠标离开被选元素触发的函数})。
+实例：web.02作业
+$('#Nav div.content ul li').not('.first,.last').hover(function(){
+	var _left = $(this).position().left;
+	var _width = $(this).width();
+	$('#Nav div.content ul li.last').show().css("width",_width).stop().animate({"left":_left},100);
+	},function(){
+		//$('#Nav div.content ul li.last').hide();
+		$('#Nav div.content ul li.last').css({"left":190,"width":88});
+	});
+						</pre>
+					</div>
+					(2) jQuery实现吸顶盒效果
+					<div class="opacity">
+						<pre>
+实例：web.02作业
+$(window).scroll(function(){//鼠标滚动事件
+	var _top = $(window).scrollTop();
+	var _height = $('#TopMain').height();
+		document.title=_height;
+	if(_top>=_height){
+		$('#Nav').addClass("fixed");
+	}else{
+		$('#Nav').removeClass("fixed");
+	}
+});
+						</pre>
+					</div>
+				</div>
+				<h3>2.css样式</h3>
+				<div class="second">
+					<div class="opacity">
+						<pre>
+margin外边距合并原则
+    外边距合并（叠加）是一个相当简单的概念。但是，在实践中对网页进行布局时，它会造成许多混淆。
+    简单地说，外边距合并指的是，当两个垂直外边距相遇时，它们将形成一个外边距。合并后的外边距的高度等于两个发生合并
+的外边距的高度中的较大者。
+    （1）当一个元素出现在另一个元素上面时，第一个元素的下外边距与第二个元素的上外边距会发生合并。
+    （2）当一个元素包含在另一个元素中时（假设没有内边距或边框把外边距分隔开），它们的上和/或下外边距也会发生合并。
+    注释：只有普通文档流中块框的垂直外边距才会发生外边距合并。行内框、浮动框或绝对定位之间的外边距不会合并。
+						</pre>
+					</div>
+					<div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
